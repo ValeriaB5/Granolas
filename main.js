@@ -35,7 +35,6 @@ function agregarComentario() {
 const routeMap = {
     "/": showHome,
     "/about": showAbout,
-    "/recipes": showRecipes,
     "/order": showOrder
 };
 
@@ -93,7 +92,7 @@ function showHome() {
             
               <br />¡Descubre el placer de cuidarte con nuestras Granolas Keto hoy mismo!</p>
 
-              <a class="button" href="https://api.whatsapp.com/send?phone=573113415586&=Hola, me gustaria ordernar una Granola">Ordena online</a>
+              <a class="button" href="https://api.whatsapp.com/send?phone=573103548587&=Hola, me gustaria ordernar una Granola">Ordena online</a>
 
     </div>
 </section>
@@ -159,17 +158,6 @@ function showAbout() {
     `;
 }
 
-function showRecipes() {
-    document.getElementById("content").innerHTML = `
-        <h2 class="ingrediente">Recetas</h2>
-        <section class="receta">
-        <iframe width="700" height="400" src="https://www.instagram.com/p/C2xKhL2AADs/embed" frameborder="0"></iframe>
-        <iframe width="700" height="400" src="https://www.instagram.com/p/C2QWaWuuNbn/embed" frameborder="0"></iframe>
-        <iframe width="700" height="400" src="https://www.instagram.com/reel/C2NsSzEpQzt/embed" frameborder="0"></iframe>
-        </section>
-    `;
-}
-
 function showOrder() {
     document.getElementById("content").innerHTML = `
 
@@ -182,7 +170,7 @@ function showOrder() {
         <img class="logo-order" src="./img/LOGO-GRANOLA-_111.png" alt="logo granola">
         <h2>Ordena Online</h2>
         <p>Ordena la mejor granola keto y prueba el balance perfecto entre sabor y nutrición.<br>
-        <a class="button" href="/order" onclick="cargarPagina('/order')">Da click aquí</a>
+        <a class="button" href="https://api.whatsapp.com/send?phone=573103548587&=Hola, me gustaria ordernar una Granola">Da click aquí</a>
 
     </div>
 
