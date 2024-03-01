@@ -80,19 +80,18 @@ function showHome() {
     </div>
     <div class="div2">
         
-        <h2>Choco Granola's</h2>
-        <p>Descubre nuestra deliciosa Granola Keto de Chocolate, creada siguiendo cuidadosamente los 
+        <h2>Granola's Keto</h2>
+        <p>Descubre nuestra deliciosa Granola Keto, creada siguiendo cuidadosamente los 
             principios de la dieta cetogénica, para satisfacer tus antojos sin comprometer tus 
             objetivos nutricionales. Además de ser baja en carbohidratos, nuestra granola está repleta de grasas saludables y 
             proteínas.<br>
          
-            <br />Sumérgete en la irresistible combinación de crujientes nueces y semillas revestidas con un
-             exquisito chocolate sin azúcares añadidos. Es el complemento ideal 
+            <br />Sumérgete en la irresistible combinación de crujientes nueces y semillas tostadas. Es el complemento ideal 
              para tus desayunos, yogures o simplemente disfrutada por sí sola como un delicioso snack y
               nutritivo.<br>
          
             
-              <br />¡Descubre el placer de cuidarte con nuestra Granola Keto de Chocolate hoy mismo!</p>
+              <br />¡Descubre el placer de cuidarte con nuestras Granolas Keto hoy mismo!</p>
 
               <a class="button" href="https://api.whatsapp.com/send?phone=573113415586&=Hola, me gustaria ordernar una Granola">Ordena online</a>
 
@@ -118,6 +117,12 @@ function showHome() {
     <!-- Los comentarios se agregarán aquí dinámicamente -->
 </div>
 </div>
+
+<div class="cimg-div">
+        <img class="cimg" src="./img/comment.png" alt="logo granola">
+
+</div>
+
 
 
 </section>
@@ -181,6 +186,11 @@ function showOrder() {
 
     </div>
 
+</section>
+<section class="sabor">
+<div class="tradicional"><img src="./img/calabaza.png" alt="calabaza"><p><strong>Tradicional</strong></p> <p>Viaja al corazón de la tradición saludable con nuestra Granola Keto Tradicional. Una mezcla equilibrada de ingredientes nutritivos para un desayuno lleno de energía. ¡Siente el sabor clásico de lo bueno para ti</p> </p></div>
+<div class="frutoRojo"><img src="./img/calabaza.png" alt="calabaza"><p><strong>Tradicional</strong></p> <p>Viaja al corazón de la tradición saludable con nuestra Granola Keto Tradicional. Una mezcla equilibrada de ingredientes nutritivos para un desayuno lleno de energía. ¡Siente el sabor clásico de lo bueno para ti</p> </div>
+<div class="chocolate"></div>
 </section>
     `;
 }

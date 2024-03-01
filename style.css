@@ -363,10 +363,11 @@ footer div {
   width: 100%;
 }
 
-.comment-box {
-  width: 60%;
+.comment-box,
+.cimg-div {
+  width: 50%;
   padding: 20px;
-  background-color: var(--celeste);
+  background-color: white;
   border-radius: 8px;
   margin: 20px;
   font-size: var(--xs);
@@ -417,14 +418,27 @@ footer div {
   display:flex;/* estos*/
   justify-content: center;/* 3*/
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  background: rgb(176,211,255);
+  background: linear-gradient(360deg, rgba(176,211,255,1) 28%, rgba(20,33,87,1) 100%);
 }
 .bold {
   font-weight: bolder;
 }
-.white {
-  background-color: white;
+
+.cimg-div {
+  display:flex;/* estos*/
+  justify-content: center;/* 3*/
+  align-items: center;
 }
+.cimg {
+  width:95%;
+  height: 50%;
+  background-color: var(--celeste);
+  border-radius: 8px;
+}
+
+
 @media (min-width: 769px) { /* condiciones mobile display none */
   .menu-hamb {
     display: none;
