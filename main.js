@@ -177,8 +177,8 @@ function showOrder() {
 </section>
 <section class="sabor">
 <div class="tradicional"><img src="./img/calabaza.png" alt="calabaza"><p><strong>Tradicional</strong></p> <p>Viaja al corazón de la tradición saludable con nuestra Granola Keto Tradicional. Una mezcla equilibrada de ingredientes nutritivos para un desayuno lleno de energía. ¡Siente el sabor clásico de lo bueno para ti</p> </p></div>
-<div class="frutoRojo"><img src="./img/calabaza.png" alt="calabaza"><p><strong>Tradicional</strong></p> <p>Viaja al corazón de la tradición saludable con nuestra Granola Keto Tradicional. Una mezcla equilibrada de ingredientes nutritivos para un desayuno lleno de energía. ¡Siente el sabor clásico de lo bueno para ti</p> </div>
-<div class="chocolate"></div>
+<div class="frutoRojo"><img src="./img/calabaza.png" alt="calabaza"><p><strong>Frutos rojos</strong></p> <p>Viaja al corazón de la tradición saludable con nuestra Granola Keto Tradicional. Una mezcla equilibrada de ingredientes nutritivos para un desayuno lleno de energía. ¡Siente el sabor clásico de lo bueno para ti</p> </div>
+<div class="chocolate"><img src="./img/calabaza.png" alt="calabaza"><p><strong>Chocolate</strong></p> <p>Viaja al corazón de la tradición saludable con nuestra Granola Keto Tradicional. Una mezcla equilibrada de ingredientes nutritivos para un desayuno lleno de energía. ¡Siente el sabor clásico de lo bueno para ti</p> </div>
 </section>
     `;
 }
