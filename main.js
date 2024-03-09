@@ -92,7 +92,7 @@ function showHome() {
             
               <br />¡Descubre el placer de cuidarte con nuestras Granolas Keto hoy mismo!</p>
 
-              <a class="button" href="https://api.whatsapp.com/send?phone=573103548587&=Hola, me gustaria ordernar una Granola">Ordena online</a>
+              <a class="button" href="https://api.whatsapp.com/send?phone=573103548587">Ordena online</a>
 
     </div>
 </section>
@@ -170,15 +170,16 @@ function showOrder() {
         <img class="logo-order" src="./img/LOGO-GRANOLA-_111.png" alt="logo granola">
         <h2>Ordena Online</h2>
         <p>Ordena la mejor granola keto y prueba el balance perfecto entre sabor y nutrición.<br>
-        <a class="button" href="https://api.whatsapp.com/send?phone=573103548587&=Hola, me gustaria ordernar una Granola">Da click aquí</a>
+        <a class="button" href="https://api.whatsapp.com/send?phone=573103548587">Da clíck aquí</a>
 
     </div>
 
 </section>
 <section class="sabor">
-<div class="tradicional"><img src="./img/calabaza.png" alt="calabaza"><p><strong>Tradicional</strong></p> <p>Viaja al corazón de la tradición saludable con nuestra Granola Keto Tradicional. Una mezcla equilibrada de ingredientes nutritivos para un desayuno lleno de energía. ¡Siente el sabor clásico de lo bueno para ti</p> </p></div>
-<div class="frutoRojo"><img src="./img/calabaza.png" alt="calabaza"><p><strong>Frutos rojos</strong></p> <p>Viaja al corazón de la tradición saludable con nuestra Granola Keto Tradicional. Una mezcla equilibrada de ingredientes nutritivos para un desayuno lleno de energía. ¡Siente el sabor clásico de lo bueno para ti</p> </div>
-<div class="chocolate"><img src="./img/calabaza.png" alt="calabaza"><p><strong>Chocolate</strong></p> <p>Viaja al corazón de la tradición saludable con nuestra Granola Keto Tradicional. Una mezcla equilibrada de ingredientes nutritivos para un desayuno lleno de energía. ¡Siente el sabor clásico de lo bueno para ti</p> </div>
+
+<div><img src="./img/FusionChoco.png" alt="Granola de chocolate"><p><strong>Fusión de Chocolate Cacao</strong></p> <p>Más que un simple placer, esta granola es un festín dulce que cuida de ti. ¡Déjate cautivar por el sabor irresistible del Chocolate!</p> </div>
+<div><img src="./img/frutoBosque.png" alt="Granola de Fresa"><p><strong>Frutos del Bosque</strong></p><p>La combinación de las bayas y frutos secos crea una granola repleta de vitalidad y sabor. ¡Disfruta de una granola que va más allá de tus expectativas! </p> </div>
+<div><img src="./img/ExplosionNatu.png" alt="Granola"><p><strong>Explosión Natural</strong></p> <p>Viaja al corazón de la tradición saludable con nuestra Granola Keto Explosión Natural. ¡Siente el equilibrio en cada porción! </p> </p></div>
 </section>
     `;
 }

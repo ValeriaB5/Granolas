@@ -21,7 +21,10 @@ h2 {
   color: var(--blue);
 }
 
-
+p {
+  font-size: var(--xs);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .headerm {
     width: 100%;
     height: 30%;
@@ -269,16 +272,18 @@ footer div {
   background: var(--celeste);
 }
 
-.column{
+.column,
+.sabor div {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  padding: 1%;
   justify-content: center;
   align-items: center;
-  
 }
 
+.column{
+  width: 50%;
+  padding: 1%;
+}
 
 .column div{
   border-radius: 10px;
@@ -294,13 +299,18 @@ footer div {
 .column div{
   padding: 2%;
 }
-.column div img {
-  width: 100px;
-  height: 100px;
+.column div img,
+.sabor div img
+ {
   border-radius: 50%;
   background: var(--celeste);
   margin: 1%;
   object-fit: contain;
+}
+
+.column div img {
+  width: 100px;
+  height: 100px;
 }
 
 .azul {
@@ -439,6 +449,33 @@ footer div {
   border-radius: 8px;
 }
 
+.sabor {
+  display: flex;
+  background: rgb(176,211,255);
+  background: linear-gradient(360deg, rgba(176,211,255,1) 28%, rgba(20,33,87,1) 100%);
+  justify-content: center;
+  align-items: center;
+}
+
+.sabor div {
+  width: 28%;
+  height: 400px;
+  padding: 2%;
+  margin: 2%;
+  text-align: center;
+  background: white;
+  border-radius: 8px;
+}
+
+.sabor div img{
+  width: 200px;
+  height: 200px;
+}
+
+.sabor div p {
+  margin:2%;
+}
+
 
 @media (min-width: 769px) { /* condiciones mobile display none */
   .menu-hamb {
@@ -511,7 +548,8 @@ footer div {
   .div2,
   .about2,
   .column div,
-  .three {
+  .three,
+  .sabor {
     display:flex;/* estos*/
     justify-content: center;/* 3*/
     align-items: center;
